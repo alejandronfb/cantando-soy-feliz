@@ -37,18 +37,32 @@ export const Science = () => {
   return (
     <section id="ciencia" className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Respaldado por la
-            <span className="block bg-calm-gradient bg-clip-text text-transparent">
-              Ciencia
-            </span>
-          </h2>
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            Nuestra metodología está fundamentada en décadas de investigación neurocientífica 
-            que demuestra el poder transformador de la música en el cerebro de los adultos mayores.
-          </p>
+      <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
+        <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+          Respaldo
+          <span className="block bg-warm-gradient bg-clip-text text-transparent">
+            Científico
+          </span>
+        </h2>
+        <p className="text-xl text-muted-foreground leading-relaxed">
+          Décadas de investigación respaldan la efectividad de la estimulación cognitiva musical
+        </p>
+        
+        <div className="grid md:grid-cols-3 gap-6 mt-12 text-center">
+          <div className="p-6 bg-primary/5 rounded-xl">
+            <p className="text-4xl font-bold text-primary mb-2">6 meses</p>
+            <p className="text-sm text-muted-foreground">de música aumentan materia gris cerebral</p>
+          </div>
+          <div className="p-6 bg-secondary/5 rounded-xl">
+            <p className="text-4xl font-bold text-secondary mb-2">40%</p>
+            <p className="text-sm text-muted-foreground">reducción en síntomas de agitación</p>
+          </div>
+          <div className="p-6 bg-accent/10 rounded-xl">
+            <p className="text-4xl font-bold text-accent-foreground mb-2">65%</p>
+            <p className="text-sm text-muted-foreground">mejora en memoria de trabajo</p>
+          </div>
         </div>
+      </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="animate-slide-in-right order-2 lg:order-1">

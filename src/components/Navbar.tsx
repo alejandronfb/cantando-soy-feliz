@@ -49,16 +49,16 @@ export const Navbar = () => {
               Inicio
             </button>
             <button
+              onClick={() => scrollToSection("beneficios")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Beneficios
+            </button>
+            <button
               onClick={() => scrollToSection("metodologia")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Metodología
-            </button>
-            <button
-              onClick={() => scrollToSection("ciencia")}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Ciencia
             </button>
             <button
               onClick={() => scrollToSection("servicios")}
@@ -67,10 +67,16 @@ export const Navbar = () => {
               Servicios
             </button>
             <button
-              onClick={() => scrollToSection("unirse")}
+              onClick={() => scrollToSection("testimonios")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Únete al Equipo
+              Testimonios
+            </button>
+            <button
+              onClick={() => scrollToSection("faq")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              FAQ
             </button>
             <Button
               onClick={() => scrollToSection("contacto")}
@@ -99,16 +105,16 @@ export const Navbar = () => {
               Inicio
             </button>
             <button
+              onClick={() => scrollToSection("beneficios")}
+              className="text-foreground hover:text-primary transition-colors text-left"
+            >
+              Beneficios
+            </button>
+            <button
               onClick={() => scrollToSection("metodologia")}
               className="text-foreground hover:text-primary transition-colors text-left"
             >
               Metodología
-            </button>
-            <button
-              onClick={() => scrollToSection("ciencia")}
-              className="text-foreground hover:text-primary transition-colors text-left"
-            >
-              Ciencia
             </button>
             <button
               onClick={() => scrollToSection("servicios")}
@@ -117,10 +123,16 @@ export const Navbar = () => {
               Servicios
             </button>
             <button
-              onClick={() => scrollToSection("unirse")}
+              onClick={() => scrollToSection("testimonios")}
               className="text-foreground hover:text-primary transition-colors text-left"
             >
-              Únete al Equipo
+              Testimonios
+            </button>
+            <button
+              onClick={() => scrollToSection("faq")}
+              className="text-foreground hover:text-primary transition-colors text-left"
+            >
+              FAQ
             </button>
             <Button
               onClick={() => scrollToSection("contacto")}

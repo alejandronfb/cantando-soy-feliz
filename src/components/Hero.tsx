@@ -19,28 +19,35 @@ export const Hero = () => {
           <div className="animate-fade-in-up">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6">
               <Music size={16} />
-              <span className="text-sm font-medium">Terapia Musical Cognitiva</span>
+              <span className="text-sm font-medium">Neurociencia Musical Aplicada</span>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Vuelva a ver el brillo en sus ojos con
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+              Talleres Musicales de Estimulación Cognitiva
               <span className="block bg-warm-gradient bg-clip-text text-transparent">
-                las canciones que marcaron su vida
+                para Residencias de Adultos Mayores
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Estimulación cognitiva a través de la música para adultos mayores. 
-              Neurociencia aplicada con corazón. Resultados que transforman vidas.
+              Mejoramos memoria, bienestar y conexión mediante música significativa. 
+              Respaldado por neurociencia. Diseñado para instituciones y familias.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
               <Button
                 size="lg"
-                onClick={() => scrollToSection("contacto")}
-                className="bg-warm-gradient hover:opacity-90 shadow-warm"
+                onClick={() => scrollToSection("servicios")}
+                className="bg-warm-gradient hover:opacity-90 shadow-warm text-lg px-8"
               >
-                Solicitar Información
+                Para Instituciones
+              </Button>
+              <Button
+                size="lg"
+                onClick={() => scrollToSection("servicios")}
+                className="bg-calm-gradient hover:opacity-90 shadow-warm text-lg px-8"
+              >
+                Para Familias
               </Button>
               <Button
                 size="lg"
@@ -48,7 +55,7 @@ export const Hero = () => {
                 onClick={() => scrollToSection("metodologia")}
                 className="border-primary text-primary hover:bg-primary/5"
               >
-                Conocer Nuestra Metodología
+                Ver Metodología
               </Button>
             </div>
 

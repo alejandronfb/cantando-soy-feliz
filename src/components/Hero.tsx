@@ -23,15 +23,15 @@ export const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Conectando con las
+              Vuelva a ver el brillo en sus ojos con
               <span className="block bg-warm-gradient bg-clip-text text-transparent">
-                canciones que marcaron sus vidas
+                las canciones que marcaron su vida
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Talleres de estimulación cognitiva a través de la música para adultos mayores.
-              Respaldado por investigación científica, diseñado con amor.
+              Estimulación cognitiva a través de la música para adultos mayores. 
+              Neurociencia aplicada con corazón. Resultados que transforman vidas.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
@@ -45,10 +45,10 @@ export const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                onClick={() => scrollToSection("ciencia")}
+                onClick={() => scrollToSection("metodologia")}
                 className="border-primary text-primary hover:bg-primary/5"
               >
-                Ver Respaldo Científico
+                Conocer Nuestra Metodología
               </Button>
             </div>
 

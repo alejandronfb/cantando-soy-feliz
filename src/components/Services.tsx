@@ -76,7 +76,7 @@ export const Services = () => {
               </div>
 
               <div className="bg-primary/5 rounded-xl p-4 mb-6">
-                <p className="text-2xl font-bold text-primary mb-1">$200 USD/mes</p>
+                <p className="text-2xl font-bold text-primary mb-1">$200.000 ARS/mes</p>
                 <p className="text-sm text-muted-foreground">4 sesiones mensuales</p>
               </div>
 
@@ -143,7 +143,7 @@ export const Services = () => {
               </div>
 
               <div className="bg-secondary/5 rounded-xl p-4 mb-6">
-                <p className="text-2xl font-bold text-secondary mb-1">$85 USD/sesión</p>
+                <p className="text-2xl font-bold text-secondary mb-1">$85.000 ARS/sesión</p>
                 <p className="text-sm text-muted-foreground">El regalo perfecto para su ser querido</p>
               </div>
 

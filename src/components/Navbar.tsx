@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/mente-activa-logo.png";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,9 +33,12 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold bg-warm-gradient bg-clip-text text-transparent">
-            Cantando Soy Feliz
-          </h1>
+          <div className="flex items-center gap-3">
+            <img src={logo} alt="Mente Activa Logo" className="h-10 w-10" />
+            <h1 className="text-2xl font-bold bg-warm-gradient bg-clip-text text-transparent">
+              Mente Activa
+            </h1>
+          </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">

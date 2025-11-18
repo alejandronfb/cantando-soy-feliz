@@ -46,9 +46,10 @@ export const Services = () => {
                 <h3 className="text-2xl font-bold">Plan Institucional</h3>
               </div>
               
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Talleres semanales diseñados para geriátricos e instituciones que desean ofrecer 
-                un servicio diferencial de estimulación cognitiva a sus residentes.
+               <p className="text-muted-foreground mb-6 leading-relaxed">
+                Ofrezca a sus residentes un programa de estimulación cognitiva que mejora 
+                su calidad de vida, reduce la agitación y crea momentos de conexión genuina. 
+                Un servicio diferencial respaldado por ciencia.
               </p>
 
               <div className="space-y-3 mb-6">
@@ -109,8 +110,9 @@ export const Services = () => {
               </div>
               
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Shows musicales individuales diseñados específicamente para su ser querido, 
-                basados en su historia personal y gustos musicales.
+                Una experiencia profundamente personalizada que revive recuerdos, estimula la mente 
+                y genera momentos inolvidables. Preparado según su historia musical única y sus 
+                necesidades específicas.
               </p>
 
               <div className="space-y-3 mb-6">

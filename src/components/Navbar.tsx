@@ -49,22 +49,22 @@ export const Navbar = () => {
               Inicio
             </button>
             <button
+              onClick={() => scrollToSection("metodologia")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Metodología
+            </button>
+            <button
               onClick={() => scrollToSection("ciencia")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Respaldo Científico
+              Ciencia
             </button>
             <button
               onClick={() => scrollToSection("servicios")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Servicios
-            </button>
-            <button
-              onClick={() => scrollToSection("beneficios")}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Beneficios
             </button>
             <Button
               onClick={() => scrollToSection("contacto")}
@@ -93,22 +93,22 @@ export const Navbar = () => {
               Inicio
             </button>
             <button
+              onClick={() => scrollToSection("metodologia")}
+              className="text-foreground hover:text-primary transition-colors text-left"
+            >
+              Metodología
+            </button>
+            <button
               onClick={() => scrollToSection("ciencia")}
               className="text-foreground hover:text-primary transition-colors text-left"
             >
-              Respaldo Científico
+              Ciencia
             </button>
             <button
               onClick={() => scrollToSection("servicios")}
               className="text-foreground hover:text-primary transition-colors text-left"
             >
               Servicios
-            </button>
-            <button
-              onClick={() => scrollToSection("beneficios")}
-              className="text-foreground hover:text-primary transition-colors text-left"
-            >
-              Beneficios
             </button>
             <Button
               onClick={() => scrollToSection("contacto")}

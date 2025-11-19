@@ -1,4 +1,5 @@
 import { Music, Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -68,6 +69,14 @@ export const Footer = () => {
               <li>Sesiones Personalizadas</li>
               <li>Talleres Grupales</li>
               <li>Asesoría Musical</li>
+              <li>
+                <Link
+                  to="/unirse"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Únete al Equipo
+                </Link>
+              </li>
             </ul>
           </div>
 

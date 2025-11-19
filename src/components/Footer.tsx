@@ -64,11 +64,39 @@ export const Footer = () => {
 
           <div>
             <h4 className="font-semibold mb-4">Servicios</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Plan Institucional</li>
-              <li>Sesiones Personalizadas</li>
-              <li>Talleres Grupales</li>
-              <li>Asesoría Musical</li>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <button
+                  onClick={() => scrollToSection("servicios")}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Plan Institucional
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection("servicios")}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Sesiones Personalizadas
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection("servicios")}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Talleres Grupales
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection("servicios")}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Asesoría Musical
+                </button>
+              </li>
               <li>
                 <Link
                   to="/unirse"

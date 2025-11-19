@@ -59,24 +59,24 @@ export const Hero = () => {
               </Button>
             </div>
 
-            <div className="grid grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-2">
-                  <Brain className="text-primary" size={24} />
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 transition-all hover:scale-110 hover:bg-primary/20">
+                  <Brain className="text-primary" size={32} />
                 </div>
-                <p className="text-sm font-medium">Estimulación Cognitiva</p>
+                <p className="text-sm font-semibold text-foreground">Estimulación Cognitiva</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-2">
-                  <Heart className="text-secondary" size={24} />
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-3 transition-all hover:scale-110 hover:bg-secondary/20">
+                  <Heart className="text-secondary" size={32} />
                 </div>
-                <p className="text-sm font-medium">Bienestar Emocional</p>
+                <p className="text-sm font-semibold text-foreground">Bienestar Emocional</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-2">
-                  <Music className="text-accent-foreground" size={24} />
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mb-3 transition-all hover:scale-110 hover:bg-accent/30">
+                  <Music className="text-accent-foreground" size={32} />
                 </div>
-                <p className="text-sm font-medium">Conexión Social</p>
+                <p className="text-sm font-semibold text-foreground">Conexión Social</p>
               </div>
             </div>
           </div>

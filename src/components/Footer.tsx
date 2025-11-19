@@ -16,7 +16,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Music className="text-primary" size={24} />
-              <h3 className="text-xl font-bold">Cantando Soy Feliz</h3>
+              <h3 className="text-xl font-bold">Mente Activa</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Conectando a nuestros seres queridos con la emoción y el recuerdo de las canciones 
@@ -111,7 +111,7 @@ export const Footer = () => {
 
         <div className="border-t border-border/50 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Cantando Soy Feliz. Todos los derechos reservados.
+            © {new Date().getFullYear()} Mente Activa. Todos los derechos reservados.
           </p>
         </div>
       </div>

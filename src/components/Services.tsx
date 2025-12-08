@@ -51,7 +51,7 @@ export const Services = () => {
         "Sesión individual de 45-60 minutos en domicilio o institución",
         "Posibilidad de incluir familiares en la sesión",
         "Registro fotográfico y de video del momento especial",
-        "Metodología basada en reminiscencia y estimulación cognitiva"
+        "Metodología basada en estimulación cognitiva musical"
       ],
       price: "$85.000",
       period: "sesión",

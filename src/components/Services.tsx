@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Building2, Home, Users, Lightbulb, Check, Music2, Brain, Heart } from "lucide-react";
+import { Building2, Home, Users, Check, Music2, Brain, Heart } from "lucide-react";
 import groupSession from "@/assets/group-session.jpg";
 import musicTherapy from "@/assets/music-therapy.jpg";
 
@@ -88,31 +88,6 @@ export const Services = () => {
         "Ejercita atención y flexibilidad cognitiva",
         "Ambiente de aprendizaje y disfrute"
       ]
-    },
-    {
-      id: "asesoria",
-      icon: Lightbulb,
-      title: "Asesoría Musical",
-      description: "Guía profesional para implementar música terapéutica",
-      image: musicTherapy,
-      features: [
-        "Construcción de perfiles musicales por residente",
-        "Creación de playlists personalizadas según historia de vida",
-        "Protocolo de selección musical basado en evidencia",
-        "Capacitación al personal sobre uso terapéutico de la música",
-        "Guía de actividades musicales para el día a día",
-        "Seguimiento y ajustes según resultados"
-      ],
-      price: "Consultar",
-      period: "",
-      subtitle: "Planes adaptados a las necesidades de la institución",
-      color: "primary",
-      highlights: [
-        "Empodera al equipo de la institución",
-        "Metodología replicable y sostenible",
-        "Basado en neurociencia aplicada",
-        "Herramientas prácticas y concretas"
-      ]
     }
   ];
 
@@ -133,7 +108,7 @@ export const Services = () => {
         </div>
 
         <Tabs defaultValue="institucional" className="max-w-6xl mx-auto">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 mb-12 h-auto gap-2 bg-background/50">
+          <TabsList className="grid w-full grid-cols-3 mb-12 h-auto gap-2 bg-background/50">
             {services.map((service) => (
               <TabsTrigger
                 key={service.id}

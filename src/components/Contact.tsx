@@ -84,9 +84,12 @@ export const Contact = () => {
               <MapPin className="text-accent-foreground" size={24} />
             </div>
             <h3 className="font-semibold mb-2">Ubicación</h3>
-            <p className="text-muted-foreground text-sm mb-2">Servicio en toda la región</p>
+            <p className="text-muted-foreground text-sm mb-2">Servicios en toda la región</p>
             <p className="text-sm">
               Buenos Aires, Argentina
+            </p>
+            <p className="text-sm">
+              Santiago, Chile
             </p>
           </Card>
         </div>

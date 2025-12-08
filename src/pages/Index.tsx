@@ -9,6 +9,7 @@ import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { AboutUs } from "@/components/AboutUs";
+import { VideoShowcase } from "@/components/VideoShowcase";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Benefits />
+      <VideoShowcase />
       <Methodology />
       <Science />
       <Services />

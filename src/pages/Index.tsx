@@ -8,6 +8,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { AboutUs } from "@/components/AboutUs";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Methodology />
       <Science />
       <Services />
+      <AboutUs />
       <Testimonials />
       <FAQ />
       <Contact />

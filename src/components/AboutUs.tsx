@@ -8,7 +8,7 @@ export const AboutUs = () => {
     {
       name: "Sebastián Fernández",
       role: "Co-fundador",
-      title: "Historiador y Cantante de Tango",
+      title: "Músico Profesional y Psicólogo",
       institution: "Universidad de Buenos Aires",
       image: sebastianImg,
     },

@@ -30,8 +30,23 @@ export const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonios" className="py-24 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="testimonios" className="py-24 relative overflow-hidden">
+      {/* Video Background */}
+      <div className="absolute inset-0 z-0">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/videos/evento-en-vivo.mp4" type="video/mp4" />
+        </video>
+        {/* Overlay for readability */}
+        <div className="absolute inset-0 bg-background/90 backdrop-blur-sm" />
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Testimonios que

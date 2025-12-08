@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Music, Brain, Heart, Users, Sparkles, CheckCircle2 } from "lucide-react";
+import { Music, Brain, Sparkles, CheckCircle2 } from "lucide-react";
 
 export const Methodology = () => {
   const steps = [
@@ -26,22 +26,6 @@ export const Methodology = () => {
       subtitle: "Juegos rítmicos que fortalecen la mente",
       description: "Las investigaciones más recientes muestran que las actividades rítmicas con cambios de reglas fortalecen la conectividad entre regiones cerebrales claves para la toma de decisiones y la atención.",
       highlight: "Incorporamos dinámicas rítmicas divertidas y accesibles que estimulan el cerebro de manera profunda y respetuosa."
-    },
-    {
-      number: "04",
-      icon: Users,
-      title: "Reminiscencia guiada",
-      subtitle: "El poder de recordar juntos",
-      description: "Después de cantar una canción significativa, abrimos un espacio breve para compartir la historia detrás de ella. Un viaje, un baile, una persona especial. Esto fomenta identidad, autoestima y conexión social.",
-      highlight: "La reminiscencia musical reduce ansiedad, mejora el estado de ánimo y refuerza la sensación de propósito."
-    },
-    {
-      number: "05",
-      icon: Heart,
-      title: "Cierre emocional y bienestar",
-      subtitle: "Un momento para sentir calma, alegría y conexión",
-      description: "Finalizamos con música que genera tranquilidad y un ambiente positivo. Es el instante donde aparece el brillo en los ojos, la sonrisa espontánea y ese gesto tan humano de reconocimiento emocional.",
-      highlight: "Muchas familias nos dicen que en estos momentos vuelven a ver a su ser querido tal como siempre fue."
     }
   ];
 
@@ -76,7 +60,7 @@ export const Methodology = () => {
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed">
-            En Mente Activa combinamos música significativa, ejercicios cognitivos activos y reminiscencia guiada. 
+            En Mente Activa combinamos música significativa y ejercicios cognitivos activos. 
             Nuestro enfoque está diseñado para generar momentos de conexión real, mejorar la cognición y promover 
             bienestar emocional en adultos mayores.
           </p>

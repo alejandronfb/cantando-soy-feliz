@@ -30,7 +30,8 @@ export const VideoShowcase = () => {
               <video
                 controls
                 className="w-full h-full object-contain"
-                poster="/videos/evento-en-vivo.mp4#t=0.1"
+                poster="/videos/estilos-canto.mp4#t=1"
+                preload="metadata"
               >
                 <source src="/videos/estilos-canto.mp4" type="video/mp4" />
                 Tu navegador no soporta el elemento de video.

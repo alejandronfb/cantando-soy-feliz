@@ -14,7 +14,7 @@ export const VideoShowcase = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Mira cómo
             <span className="block bg-warm-gradient bg-clip-text text-transparent">
-              Disfrutan los Abuelitos
+              Disfrutan Nuestros Mayores
             </span>
           </h2>
 

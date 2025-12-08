@@ -6,18 +6,18 @@ import sebastianImg from "@/assets/sebastian.jpg";
 export const AboutUs = () => {
   const team = [
     {
-      name: "Alejandro Fernández",
-      role: "Co-fundador",
-      title: "Ingeniero Civil Industrial TI",
-      institution: "Pontificia Universidad Católica de Chile",
-      image: alejandroImg,
-    },
-    {
       name: "Sebastián Fernández",
       role: "Co-fundador",
       title: "Historiador y Cantante de Tango",
       institution: "Universidad de Buenos Aires",
       image: sebastianImg,
+    },
+    {
+      name: "Alejandro Fernández",
+      role: "Co-fundador",
+      title: "Ingeniero Civil Industrial TI",
+      institution: "Pontificia Universidad Católica de Chile",
+      image: alejandroImg,
     },
   ];
 

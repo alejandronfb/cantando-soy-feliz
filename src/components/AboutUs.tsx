@@ -8,7 +8,7 @@ export const AboutUs = () => {
     {
       name: "Sebastián Fernández",
       role: "Co-fundador",
-      title: "Músico Profesional y Psicólogo",
+      title: "Músico profesional. Profesor, especialista en neurociencia del aprendizaje y estudiante de Psicología",
       institution: "Universidad de Buenos Aires",
       image: sebastianImg,
     },

@@ -15,7 +15,7 @@ export const AboutUs = () => {
     {
       name: "Alejandro Fernández",
       role: "Co-fundador",
-      title: "Ingeniero Civil Industrial TI",
+      title: "Ingeniero Civil Industrial TI y Emprendedor",
       institution: "Pontificia Universidad Católica de Chile",
       image: alejandroImg,
     },

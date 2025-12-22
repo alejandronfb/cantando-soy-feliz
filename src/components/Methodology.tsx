@@ -45,7 +45,7 @@ export const Methodology = () => {
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6">
             <Brain size={16} />
-            <span className="text-sm font-medium">El Protocolo Mente Activa</span>
+            <span className="text-sm font-medium">El Protocolo Cantando Soy Feliz</span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -60,7 +60,7 @@ export const Methodology = () => {
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed">
-            En Mente Activa combinamos música significativa y ejercicios cognitivos activos. 
+            En Cantando Soy Feliz combinamos música significativa y ejercicios cognitivos activos. 
             Nuestro enfoque está diseñado para generar momentos de conexión real, mejorar la cognición y promover 
             bienestar emocional en adultos mayores.
           </p>
@@ -137,7 +137,7 @@ export const Methodology = () => {
                   Un enfoque único, humano y profesional
                 </span>
                 <span className="block mt-2 text-muted-foreground">
-                  Mente Activa es más que música. Es neurociencia aplicada con corazón.
+                  Cantando Soy Feliz es más que música. Es neurociencia aplicada con corazón.
                 </span>
               </p>
             </div>

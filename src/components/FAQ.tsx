@@ -33,7 +33,7 @@ export const FAQ = () => {
       answer: "El tamaño ideal es de 8-15 participantes para mantener la calidad de interacción. Podemos trabajar con grupos más pequeños (mínimo 5) o adaptar la metodología para grupos de hasta 20 personas, aunque esto puede ajustar la dinámica."
     },
     {
-      question: "¿Qué diferencia a Mente Activa de otras actividades musicales?",
+      question: "¿Qué diferencia a Cantando Soy Feliz de otras actividades musicales?",
       answer: "Nuestra metodología combina música significativa con ejercicios cognitivos específicos basados en neurociencia. No es solo entretenimiento, sino estimulación cognitiva estructurada que activa memoria, funciones ejecutivas, lenguaje y bienestar emocional. Cada sesión está diseñada terapéuticamente con objetivos claros."
     },
     {

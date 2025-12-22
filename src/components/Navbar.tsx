@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/mente-activa-logo.png";
+import logo from "@/assets/cantando-soy-feliz-logo.png";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,9 +35,9 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
-            <img src={logo} alt="Mente Activa Logo" className="h-10 w-10" />
+            <img src={logo} alt="Cantando Soy Feliz Logo" className="h-10 w-10" />
             <h1 className="text-2xl font-bold bg-warm-gradient bg-clip-text text-transparent">
-              Mente Activa
+              Cantando Soy Feliz
             </h1>
           </Link>
 

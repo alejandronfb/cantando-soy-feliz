@@ -120,7 +120,7 @@ export const JoinTeam = () => {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message">¿Por qué quieres unirte a Mente Activa? *</Label>
+                <Label htmlFor="message">¿Por qué quieres unirte a Cantando Soy Feliz? *</Label>
                 <Textarea
                   id="message"
                   {...register("message", { required: true })}
@@ -141,7 +141,7 @@ export const JoinTeam = () => {
           <div className="mt-8 text-center">
             <p className="text-sm text-muted-foreground">
               Al enviar tu postulación, recibirás información sobre nuestro proceso de selección 
-              y capacitación en la metodología Mente Activa.
+              y capacitación en la metodología Cantando Soy Feliz.
             </p>
           </div>
         </div>

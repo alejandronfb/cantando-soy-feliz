@@ -7,7 +7,7 @@ export const Testimonials = () => {
       name: "Dra. María Fernández",
       role: "Directora de Residencia San Rafael",
       location: "Buenos Aires",
-      text: "Desde que implementamos las sesiones de Mente Activa, hemos visto una reducción notable en la agitación de nuestros residentes. Los familiares reportan que sus seres queridos están más comunicativos y sonrientes después de cada sesión.",
+      text: "Desde que implementamos las sesiones de Cantando Soy Feliz, hemos visto una reducción notable en la agitación de nuestros residentes. Los familiares reportan que sus seres queridos están más comunicativos y sonrientes después de cada sesión.",
       metric: "40% reducción en agitación",
       rating: 5
     },
@@ -23,7 +23,7 @@ export const Testimonials = () => {
       name: "Lic. Roberto Martínez",
       role: "Coordinador de Actividades",
       location: "Residencia Los Álamos",
-      text: "El enfoque científico de Mente Activa hace la diferencia. No es solo entretenimiento, es estimulación cognitiva real. Hemos documentado mejoras en atención y memoria de trabajo en el 65% de nuestros participantes.",
+      text: "El enfoque científico de Cantando Soy Feliz hace la diferencia. No es solo entretenimiento, es estimulación cognitiva real. Hemos documentado mejoras en atención y memoria de trabajo en el 65% de nuestros participantes.",
       metric: "65% mejora documentada",
       rating: 5
     }
@@ -97,7 +97,7 @@ export const Testimonials = () => {
 
         <div className="mt-12 text-center">
           <p className="text-muted-foreground">
-            <span className="font-semibold text-foreground">+50 residencias</span> confían en Mente Activa para el bienestar de sus residentes
+            <span className="font-semibold text-foreground">+50 residencias</span> confían en Cantando Soy Feliz para el bienestar de sus residentes
           </p>
         </div>
       </div>

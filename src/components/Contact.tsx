@@ -72,10 +72,10 @@ export const Contact = () => {
             <h3 className="font-semibold mb-2">Teléfono</h3>
             <p className="text-muted-foreground text-sm mb-2">Llámanos de lunes a viernes</p>
             <a
-              href="tel:+5491112345678"
+              href="tel:+5491124050466"
               className="text-secondary hover:text-secondary/80 transition-colors text-sm"
             >
-              +54 9 11 1234-5678
+              +54 9 11 2405-0466
             </a>
           </Card>
 
@@ -125,7 +125,7 @@ export const Contact = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="+54 9 11 1234-5678"
+                  placeholder="+54 9 11 2405-0466"
                 />
               </div>
               <div>

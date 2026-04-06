@@ -55,13 +55,15 @@ export const Contact = () => {
             <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <Mail className="text-primary" size={24} />
             </div>
-            <h3 className="font-semibold mb-2">Email</h3>
+            <h3 className="font-semibold mb-2">WhatsApp</h3>
             <p className="text-muted-foreground text-sm mb-2">Escríbenos cualquier consulta</p>
             <a
-              href="mailto:info@cantandosoyfeliz.com"
+              href="https://wa.me/5491124050466"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors text-sm"
             >
-              info@cantandosoyfeliz.com
+              +54 9 11 2405-0466
             </a>
           </Card>
 

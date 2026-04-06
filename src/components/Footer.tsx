@@ -114,10 +114,12 @@ export const Footer = () => {
               <li className="flex items-start gap-2">
                 <Mail className="text-primary flex-shrink-0 mt-1" size={16} />
                 <a
-                  href="mailto:info@cantandosoyfeliz.com"
+                  href="https://wa.me/5491124050466"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  info@cantandosoyfeliz.com
+                  WhatsApp
                 </a>
               </li>
               <li className="flex items-start gap-2">

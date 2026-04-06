@@ -125,7 +125,7 @@ export const Contact = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="+54 9 11 1234-5678"
+                  placeholder="+54 9 11 2405-0466"
                 />
               </div>
               <div>

@@ -3,11 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 export const Contact = () => {
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,22 +18,60 @@ export const Contact = () => {
     message: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Aquí se integraría con un backend o servicio de email
-    toast({
-      title: "¡Mensaje enviado!",
-      description: "Nos pondremos en contacto contigo pronto.",
-    });
-    
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      service: "",
-      message: ""
-    });
+    setIsSubmitting(true);
+
+    try {
+      const submissionId = crypto.randomUUID();
+      
+      const { error } = await supabase.from('contact_submissions').insert({
+        id: submissionId,
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone || null,
+        service: formData.service || null,
+        message: formData.message,
+      });
+
+      if (error) throw error;
+
+      // Also invoke edge function for email notification
+      await supabase.functions.invoke('send-contact-email', {
+        body: {
+          ...formData,
+          submissionId,
+        },
+      });
+
+      toast({
+        title: "¡Mensaje enviado!",
+        description: "Nos pondremos en contacto contigo pronto.",
+      });
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: ""
+      });
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "¡Mensaje enviado!",
+        description: "Nos pondremos en contacto contigo pronto.",
+      });
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: ""
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -53,15 +93,17 @@ export const Contact = () => {
         <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 animate-fade-in-up border-border/50">
             <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Mail className="text-primary" size={24} />
+              <MessageCircle className="text-primary" size={24} />
             </div>
-            <h3 className="font-semibold mb-2">Email</h3>
+            <h3 className="font-semibold mb-2">WhatsApp</h3>
             <p className="text-muted-foreground text-sm mb-2">Escríbenos cualquier consulta</p>
             <a
-              href="mailto:info@cantandosoyfeliz.com"
+              href="https://wa.me/5491124050466"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors text-sm"
             >
-              info@cantandosoyfeliz.com
+              +54 9 11 2405-0466
             </a>
           </Card>
 
@@ -159,8 +201,9 @@ export const Contact = () => {
               type="submit"
               size="lg"
               className="w-full bg-warm-gradient hover:opacity-90 shadow-warm"
+              disabled={isSubmitting}
             >
-              Enviar Mensaje
+              {isSubmitting ? "Enviando..." : "Enviar Mensaje"}
             </Button>
           </form>
         </Card>

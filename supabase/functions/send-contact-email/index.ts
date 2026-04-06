@@ -4,7 +4,7 @@ const corsHeaders = {
 }
 
 const GATEWAY_URL = 'https://connector-gateway.lovable.dev/resend'
-const NOTIFICATION_EMAIL = 'matibrey3@gmail.com'
+const NOTIFICATION_EMAIL = 'sfernandezeducacion@gmail.com'
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') {
